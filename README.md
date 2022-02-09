@@ -5,27 +5,31 @@ interpreters that went straight from surface language (sentences) to
 conceptual dependency (CD) semantic notation. For reference, see the book 
 "Scripts, Plans, Goals and Understanding" by Roger Schank.
 
-CA was the acronym (for Conceptual Analyzer) one of the systems for semantic
-parsing of language into Conceptual Dependency developed at Yale
-University by that group between 1976-9. This code was originally developed by Larry
-Birnbaum in MLISP but was based on another more complex system developed by
-Chris Riesbeck. Modifications and additions to this code were made
-in 1978-9 by Mark Burstein and Lewis Johnson, and another very similar system
-with much more support for compact vocabulary definitions
-was nearly contemporaneously developed by Mike Dyer and used in the BORIS
-system.
+CA was the acronym (for Conceptual Analyzer) one of the systems for
+semantic parsing of language into Conceptual Dependency developed at Yale
+University by that group between 1976-9. This code was originally developed
+by Larry Birnbaum in MLISP and was based on the orignal system ELI (English
+Language Interpreter) developed by Chris Riesbeck (see chapter on Micro-ELI
+in "Inside Computer Understanding" by R.C.Schank and C.K.Riesbeck and one
+on Conceptual Analysis by L. Birnbaum and M. Selfridge). Modifications and
+additions to this code were made in 1978-9 by Mark Burstein and Lewis
+Johnson, and another very similar system with much more support for compact
+vocabulary definitions was nearly contemporaneously developed by Mike Dyer
+and used in the BORIS system.
 
-This repo contains code recovered from an original printout and manually transcribed
-by Mark Burstein in January of 2022, and converted into CommonLisp from
-the original UCI Lisp code. This "working" version (with some rewrites to
-simplify the word definitions, the messages produced, and how requests
-(the interpretation rules within definitions) are processed.
+This repo contains code recovered from an original source printout and
+manually transcribed by Mark Burstein in January of 2022. It was converted
+into CommonLisp from the original UCI Lisp code. This "working" version
+(with some rewrites to simplify the word definitions, the messages
+produced, and how requests (the interpretation rules within definitions)
+are processed.
 
 The code has ONLY been made to work well enough for it to be tested on the
 set of sentences in test.lisp.
 
-A lot of unused functions remains to be cleaned out and the commentary improved. The
-original code had a number of hooks for use by other project systems.
+A lot of unused functions remains to be cleaned out and the commentary
+improved. The original code had a number of hooks for use by other project
+systems.
 
 == HOW TO LOAD ==
 

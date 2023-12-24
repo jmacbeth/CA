@@ -31,7 +31,7 @@ A lot of unused functions remains to be cleaned out and the commentary
 improved. The original code had a number of hooks for use by other project
 systems.
 
-== HOW TO LOAD ==
+## HOW TO LOAD
 
 This system was loaded and tested in SBCL.  It relies on ASDF.
 

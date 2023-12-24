@@ -44,6 +44,7 @@ then
 (in-package :CD)
 
 Then test with the sentences in test.lisp, for example,
+~~~
 (in-package :CD)
 #<PACKAGE "CDPARSER">
 CD> (ca tst6)
@@ -189,7 +190,7 @@ Result: ((*DO* <=> ($CRASH)
 
 C-LIST: ((CON3) (CON7) (CON11) (CON21) (CON26) (CON41) CON46 (CON54) (CON57) (CON64) (CON68)) 
 (CON46)
-
+~~~
 
 Notes: When it shows C-LIST, this is a list of the concept forms or
 fragments as they were constructed. Ones in parens have been incorporated

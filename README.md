@@ -33,9 +33,9 @@ systems.
 
 ## HOW TO LOAD
 
-This system was loaded and tested in SBCL.  It relies on ASDF.
+This system was loaded and tested in SBCL and CLISP.  It relies on ASDF.
 
-To run in SBCL set up a registry entry for this directory or call
+To run, place the code in ~/common_lisp, set up a registry entry for this directory, or call
 (load "<this dir>/cdparser.asd")
 
 then

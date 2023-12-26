@@ -35,7 +35,7 @@ systems.
 
 This system was loaded and tested in SBCL and CLISP.  It relies on ASDF.
 
-To run, place the code in ~/common_lisp, set up a registry entry for this directory, or call
+To run, place the code in ~/common-lisp, set up a registry entry for this directory, or call
 (load "<this dir>/cdparser.asd")
 
 then
